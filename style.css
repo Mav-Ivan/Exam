@@ -1,0 +1,78 @@
+ * {
+    margin: 0%;
+    padding: 0%;
+ }
+
+/* html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+} */
+
+/* #contentContainer {
+    min-height: 90vh;
+} */
+
+.myCard {
+    width: max-content;
+    margin: 2vh 5vw;
+}
+
+.img {
+    width: 256px;
+    height: 256px;
+}
+
+.myBtn , .myDeleteBtn{
+    width: 6vw;
+}
+
+.modal-invisible {
+    z-index: 0;
+    display: none;
+    /* opacity: 0; */
+   
+}
+
+.show-modal {
+    display: block;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 24vw;
+}
+
+.modalHeader{
+    padding: 3%;
+    margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(80, 77, 77, 0.5);;
+}
+
+.close-button , .closeEditButton {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+

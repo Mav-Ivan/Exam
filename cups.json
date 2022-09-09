@@ -1,0 +1,51 @@
+[
+    {
+        "id": 2,
+        "name": "Cup for coffe",
+        "volume": 150,
+        "material": "clay",
+        "color": "white",
+        "image": "https://cdn140.picsart.com/294695595165201.jpg?type=webp&to=crop&r=256"
+    },
+    {
+        "id": 0,
+        "name": "Cup for kitchen",
+        "volume": 500,
+        "material": "glass",
+        "color": "transparent",
+        "image": "https://photos3.walmart.com/prism/themes/wmfullphoto-1.themepack/custom_15oz.mug/_hd_thm_product_01.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Cup for late",
+        "volume": 250,
+        "material": "paper",
+        "color": "white",
+        "image": "https://cdn130.picsart.com/322930938046201.jpg?type=webp&to=crop&r=256"
+    },
+    {
+        "id": 3,
+        "name": "Cup for late",
+        "volume": 350,
+        "material": "paper",
+        "color": "white",
+        "image": "https://cdn130.picsart.com/322930938046201.jpg?type=webp&to=crop&r=256"
+    },
+    {
+        "id": 4,
+        "name": "Cup for coffe",
+        "volume": 450,
+        "material": "clay",
+        "color": "white",
+        "image": "https://cdn140.picsart.com/294695595165201.jpg?type=webp&to=crop&r=256"
+    },
+    {
+        "id": 5,
+        "name": "Cup for coffe",
+        "volume": 650,
+        "material": "clay",
+        "color": "white",
+        "image": "https://cdn140.picsart.com/294695595165201.jpg?type=webp&to=crop&r=256"
+    }
+    
+]
