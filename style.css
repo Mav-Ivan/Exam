@@ -3,15 +3,6 @@
     padding: 0%;
  }
 
-/* html, body, #fullheight {
-    min-height: 100% !important;
-    height: 100%;
-} */
-
-/* #contentContainer {
-    min-height: 90vh;
-} */
-
 .myCard {
     width: max-content;
     margin: 2vh 5vw;

@@ -4,8 +4,6 @@ window.onload = deleteElement
 
 function editFunct() {
     let buttons = document.querySelectorAll('button.myBtn')
-    // console.log(buttons);
-    
 
     buttons.forEach((el) => {
         el.addEventListener('click', (e) => {
@@ -23,10 +21,6 @@ function editFunct() {
             let materialEdit = document.querySelector('input#materialEdit')
             let colorEdit = document.querySelector('input#colorEdit')
             let imageEdit = document.querySelector('input#imageEdit')
-
-            
-            
-            // connect 
             
             editModalBtn.addEventListener("click", () => {
                 let data = JSON.parse(localStorage.getItem('cups'))
@@ -357,14 +351,12 @@ sortSwitch.addEventListener('click', () => {
         let sortArr = arr.sort((a, b) => {
             return a.children[1].children[1].innerText.slice(9) - b.children[1].children[1].innerText.slice(9)
         }).reverse()
-        // console.log(sortArr);
 
         let localSortArr = []
         sortArr.forEach(el => {
             let id = el.id.slice(4)
             localSortArr.push({'id': id, "name": el.children[1].children[0].innerText, "volume": el.children[1].children[1].innerText.slice(9), "material": el.children[1].children[2].innerText.slice(11),
         "color": el.children[1].children[3].innerText.slice(8), "image": el.children[0].src})
-        // console.log(el.children[1].children[3].innerText.slice(8));
         })
         localStorage.setItem('sortCups' , JSON.stringify(localSortArr))
 
@@ -376,10 +368,9 @@ sortSwitch.addEventListener('click', () => {
         deleteElement()
 
             
-
     } else {
 
-            deleteAllElements()
+        deleteAllElements()
 
         let data = JSON.parse(localStorage.getItem('cups'))
 
@@ -387,8 +378,6 @@ sortSwitch.addEventListener('click', () => {
 
             creatDefaultElement(el.id, el.name, el.volume , el.material , el.color , el.image)
         });
-
-
 
 
         deleteElement()
